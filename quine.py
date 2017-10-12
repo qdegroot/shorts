@@ -3,7 +3,7 @@
 # The point is that it increments id_num in the file it copies itself to.
 # Also it increments the new filename because I wanted that to happen
 
-
+# TODO: clean up
 
 # The basics
 q = chr(34)
