@@ -22,7 +22,7 @@ $zip.Close()
 $compressedbytes = $outbytes.ToArray()
 
 # taking compressed bytes and turning them into base64string
-$package = [Convert]::ToBase64String($bytes)
+$package = [Convert]::ToBase64String($compressedbytes)
 
 # taking base64string and fitting it into an expression that'll pop it back open for invoke-expression
 # Also packages into base64 to fit into encodedcommand, which get through parsing errors and obfuscates some more
